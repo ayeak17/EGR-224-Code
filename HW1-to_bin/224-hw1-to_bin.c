@@ -18,7 +18,7 @@ int main()
 
     char binary[17];
     char mod;
-    int div, i = 0;
+    int div = 1, i = 0;
     
     while (div > 0)
     {
@@ -26,7 +26,7 @@ int main()
         div = div / 2;
         binary[i] = mod;
         ++i;
-    }
+    }                              
     i = 0;
     
 
