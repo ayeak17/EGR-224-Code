@@ -28,7 +28,12 @@ int main()
         ++i;
     }
     i = 0;
-    while ()
+    
+
+    for (int n = 16; n >= 0; n--)
+    {
+        printf("%c", binary[n]);
+    }
 
 
     return 0;
