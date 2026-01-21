@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
+
 int main()
 {
     int decimal = 0;
@@ -15,7 +16,20 @@ int main()
         decimal = 0;
     }
 
-    printf("%X", decimal);
+    char binary[17];
+    char mod;
+    int div, i = 0;
     
+    while (div > 0)
+    {
+        mod = (char)(div % 2);
+        div = div / 2;
+        binary[i] = mod;
+        ++i;
+    }
+    i = 0;
+    while ()
+
+
     return 0;
 }
